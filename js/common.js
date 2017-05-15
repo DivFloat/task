@@ -4,4 +4,6 @@ $(function(){
 	var w1=$('#left').width();
 	$('#left').css('height',w1);
 	$('#right').css('height',w1);
+	var h=$(window).height();
+	$('body').css('height',h);
 });
