@@ -8,7 +8,9 @@
 /* 400px及以下分辨率未做适配 */
 /* 400px至750px之间全屏显示 */
 @media only screen and (min-width: 320px) and (max-width: 750px){
-	body{
+	body{	
+		width:100%;
+		height:100%;
 		background-image: url('../images/bg-lgpoker.png');
 		background-repeat:no-repeat;
 		background-size: 100% 100%;
